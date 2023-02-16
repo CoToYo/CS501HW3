@@ -13,9 +13,6 @@ Containing 3 projects: Updated Geoquiz, Celcius to Farhehite  and Math Game
 7. Geng Yan
 8. Tingyuan Cui
 
-
-
-
 ### Geo Quiz Update:
 #### Requirements
 - Cheat activity reset on next question
@@ -41,8 +38,6 @@ Geng Yan (Roger) - backend of the app
 
 Tingyuan Cui (Leon) - backend of the app
 
-Snigdha (Sia) -Frontend of the application
-
 ### Math game:
 #### Requirements
 - Login View
@@ -58,7 +53,5 @@ Snigdha (Sia) -Frontend of the application
 
 Snigdha (Sia) - UI of the app
 
-Shaq  (Abhishek)
-
-Kash - Functionalities of the app (Picking random numbers, etc)
+Shaq  (Abhishek) - Functionalities of the application
 
