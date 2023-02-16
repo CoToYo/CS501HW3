@@ -34,9 +34,9 @@ Kash (Utkarsh) - part c
 - Interesting random messages based on too hot or too cold
 - Tests
 
-Geng Yan (Roger) - backend of the app
+Geng Yan (Roger) - backend testing of the app
 
-Tingyuan Cui (Leon) - backend of the app
+Tingyuan Cui (Leon) - frontend UI and backend of the app
 
 ### Math game:
 #### Requirements
