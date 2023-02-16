@@ -46,7 +46,8 @@ class MainActivity : AppCompatActivity() {
                 cTextView.text = p1.toString()
 //                fTextView.text = "%.2f".format(p1 * 1.8f + 32.0)
                 fTextView.text = (p1 * 1.8f + 32).toInt().toString()
-                fSeekBar.progress = (p1 * 1.8f + 32).toInt()
+//                fSeekBar.progress = (p1 * 1.8f + 32).toInt()
+                fSeekBar.progress = toFahrenheit(p1)
             }
 
             override fun onStartTrackingTouch(p0: SeekBar?) {
@@ -68,7 +69,8 @@ class MainActivity : AppCompatActivity() {
                 fTextView.text = p1.toString()
 //                cTextView.text = "%.2f".format((p1 - 32)/1.8f)
                 cTextView.text = ((p1 - 32)/1.8f).toInt().toString()
-                cSeekBar.progress = ((p1 - 32)/1.8f).toInt()
+                cSeekBar.progress = toCelsius(p1)
+//                cSeekBar.progress =
             }
 
             override fun onStartTrackingTouch(p0: SeekBar?) {
@@ -101,6 +103,16 @@ class MainActivity : AppCompatActivity() {
             val wishColdBar : Snackbar = Snackbar.make(layout, "I wish it were colder.", Snackbar.LENGTH_SHORT)
             wishColdBar.show()
         }
+    }
+
+
+    fun toCelsius(fahr : Int): Int{
+        return ((fahr - 32)/1.8f).toInt()
+    }
+
+
+    fun toFahrenheit(cels : Int): Int{
+        return (cels * 1.8f + 32).toInt()
     }
 
 }

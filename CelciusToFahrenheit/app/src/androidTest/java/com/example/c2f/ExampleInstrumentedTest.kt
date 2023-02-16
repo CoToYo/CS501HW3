@@ -19,6 +19,9 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
+        InstrumentationRegistry.getInstrumentation().ma
+//        appContext.classLoader
         assertEquals("com.example.c2f", appContext.packageName)
+//        appContext.
     }
 }
