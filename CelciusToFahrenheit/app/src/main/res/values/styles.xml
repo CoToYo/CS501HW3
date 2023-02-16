@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme_AppCompatzz" parent="Theme.AppCompat">
+        <!-- Customize theme attributes as necessary -->
+<!--        <item name="colorPrimary">@color/blue</item>-->
+<!--        <item name="colorPrimaryDark">@color/dark_blue</item>-->
+<!--        <item name="colorAccent">@color/orange</item>-->
+
+    </style>
+
+
+</resources>

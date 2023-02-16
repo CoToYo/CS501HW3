@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReviewActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/math_quiz"
+    android:id="@+id/linearLayout5">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_conversion_absoluteHeight="500dp"
+        tools:layout_editor_absoluteY="51dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_conversion_absoluteWidth="411dp">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/custom_edittext"
+        tools:layout_conversion_absoluteHeight="90dp"
+        tools:layout_editor_absoluteY="581dp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_conversion_absoluteWidth="289dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:orientation="vertical"
+            tools:layout_conversion_absoluteHeight="90dp"
+            tools:layout_editor_absoluteY="581dp"
+            tools:layout_editor_absoluteX="61dp"
+            tools:layout_conversion_absoluteWidth="289dp">
+            <Button
+                android:id="@+id/re_take"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="@color/navy_blue"
+                android:text="@string/re_start"
+                android:textSize="18sp"
+                app:cornerRadius="20dp"
+                android:layout_margin="15dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
