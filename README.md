@@ -1,7 +1,7 @@
 # CS501HW3
 Containing 3 projects: Updated Geoquiz, Celcius to Farhehite  and Math Game
 
-### Team Name:
+### Team Name: Android Lovers
 
 ### Team Members:
 1. Junru He
